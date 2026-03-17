@@ -1,0 +1,21 @@
+# --- Unreal Engine 5 Git Ignore ---
+
+# Папки с промежуточными файлами (генерируются движком, весят много)
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+
+# Папка с контентом движка (не нужна, так как у всех стоит UE5)
+Engine/
+
+# Системные файлы
+*.pdb
+*.dll
+*.exe
+.DS_Store
+Thumbs.db
+
+# Логи и кэши
+*.log
+*.csv
